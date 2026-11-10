@@ -1,4 +1,4 @@
-# gloam-trade
+# Gloam
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gloam-trade is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gloam.trade/
+Gloam provides private money solutions on public blockchains, enabling confidential payments, payroll, and agent-based transactions without exposing amounts on chain. The platform offers SDKs, APIs, and tools for developers to integrate private stablecoin transfers, payroll processing, and custom agent logic, supporting multiple chains like Elysium, Hyperliquid L2, and others. It emphasizes user‑controlled keys, no admin withdrawals, and on‑chain settlement with off‑chain privacy.
+
+**Areas:** Company · Finance · Blockchain · Payments · Privacy
+
+## Gloam on APIs.io
+
+Everything profiled for Gloam is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gloam-trade/](https://apis.io/providers/gloam-trade/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Gloam API](https://apis.io/apis/gloam-trade/gloam-api/) — Gloam provides private money solutions on public blockchains via its API. Documentation is available at the developer portal.
+- [Gloam API](https://apis.io/apis/gloam-trade/gloam-trade-api/) — Gloam API as documented publicly: 16 operations. Contract generated from the documentation by API Evangelist (2026-11-10); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1Response](https://apis.io/schemas/gloam-trade/gloam-trade-get-api-v1-response/)
+- [GetApiV1StatsResponse](https://apis.io/schemas/gloam-trade/gloam-trade-get-api-v1-stats-response/)
+- [PostApiPartnersAttributeResponse](https://apis.io/schemas/gloam-trade/gloam-trade-post-api-partners-attribute-response/)
+- [PostApiPartnersRegisterRequest](https://apis.io/schemas/gloam-trade/gloam-trade-post-api-partners-register-request/)
+- [PostApiV1RelayRequest](https://apis.io/schemas/gloam-trade/gloam-trade-post-api-v1-relay-request/)
+- [PostApiV1SwapsQuoteResponse](https://apis.io/schemas/gloam-trade/gloam-trade-post-api-v1-swaps-quote-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Gloam Trade Context](https://apis.io/jsonld/gloam-trade/gloam-trade-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Gloam API Rules](https://apis.io/rules/gloam-trade/gloam-trade-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gloam Domain Security](https://apis.io/security/gloam-trade/gloam-trade-domain-security/)
+- [Gloam Vulnerability Disclosure](https://apis.io/security/gloam-trade/gloam-trade-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gloam.trade/)
+- [Documentation](https://www.gloam.trade/docs)
+- [Getting started](https://www.gloam.trade/docs/quickstart)
+- [API reference](https://www.gloam.trade/docs/sdk/reference)
+- [Blog](https://www.gloam.trade/blog/live-on-tempo)
+- [Security](https://www.gloam.trade/security)
+- [Terms of service](https://www.gloam.trade/terms)
+- [Privacy policy](https://www.gloam.trade/privacy)
+- [GitHub](https://github.com/gloamtrade/gloam)
+
+## API Evangelist rating
+
+**Kin Score 45.3** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 55.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 19.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gloam-trade/](https://apis.io/providers/gloam-trade/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gloam: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gloam-trade/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
